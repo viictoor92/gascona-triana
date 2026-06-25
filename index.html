@@ -338,16 +338,27 @@ window.addEventListener('resize', updateActiveSection, {passive:true});
 
 /* ====== Modal de plato con foto (imagen 1:1) ====== */
 const modal = document.getElementById('modal');
+let modalImgToken = 0;
 function openDish(el){
   const img = document.getElementById('mImg');
-  // Reinicia a estado "cargando" (oculta la foto anterior) y entra con blur progresivo.
+  const url = el.dataset.img;
+  const token = ++modalImgToken;
+  // Oculta la foto anterior AL INSTANTE (sin transición de salida) vaciando el src,
+  // y solo muestra la nueva cuando ya está decodificada -> sin flasheo de la anterior.
   img.classList.remove('ready'); img.classList.add('loading');
-  img.onload = ()=>{ img.classList.add('ready'); img.classList.remove('loading'); };
+  img.removeAttribute('src');
   img.alt = el.dataset.n || '';
-  img.src = el.dataset.img;
-  if(img.complete && img.naturalWidth){
-    requestAnimationFrame(()=>{ img.classList.add('ready'); img.classList.remove('loading'); });
-  }
+  const pre = new Image();
+  pre.onload = ()=>{
+    if(token !== modalImgToken) return; // se abrió otro plato mientras cargaba
+    img.src = url;
+    requestAnimationFrame(()=>{
+      if(token !== modalImgToken) return;
+      img.classList.add('ready'); img.classList.remove('loading');
+    });
+  };
+  pre.onerror = ()=>{ if(token === modalImgToken) img.removeAttribute('src'); };
+  pre.src = url;
   document.getElementById('mName').textContent = el.dataset.n || '';
   const d = document.getElementById('mDesc');
   d.textContent = el.dataset.d || ''; d.style.display = el.dataset.d ? 'block' : 'none';
