@@ -1,0 +1,1806 @@
+{
+  "ui": {
+    "es": {
+      "lema": "Tradición asturiana en el corazón de Triana",
+      "info": "Sidrería · Carnes · Mariscos · Cocina asturiana",
+      "aler": "Información de alérgenos disponible. Pregunta a nuestro equipo. IVA incluido."
+    },
+    "en": {
+      "lema": "Asturian tradition in the heart of Triana",
+      "info": "Cider house · Grilled meats · Seafood · Asturian cuisine",
+      "aler": "Allergen information available on request. VAT included."
+    },
+    "it": {
+      "lema": "Tradizione asturiana nel cuore di Triana",
+      "info": "Sidreria · Carni · Frutti di mare · Cucina asturiana",
+      "aler": "Informazioni sugli allergeni disponibili su richiesta. IVA inclusa."
+    },
+    "fr": {
+      "lema": "Tradition asturienne au cœur de Triana",
+      "info": "Cidrerie · Viandes · Fruits de mer · Cuisine asturienne",
+      "aler": "Informations sur les allergènes disponibles sur demande. TVA incluse."
+    }
+  },
+  "sections": {
+    "compartir": {
+      "es": "Para compartir",
+      "en": "To share",
+      "it": "Da condividere",
+      "fr": "À partager"
+    },
+    "mariscos": {
+      "es": "Mariscos",
+      "en": "Seafood",
+      "it": "Frutti di mare",
+      "fr": "Fruits de mer"
+    },
+    "huerta": {
+      "es": "De la huerta",
+      "en": "From our orchard",
+      "it": "Dall'orto",
+      "fr": "Du potager"
+    },
+    "tablas": {
+      "es": "En su tabla",
+      "en": "On your platter",
+      "it": "Taglieri",
+      "fr": "Planches"
+    },
+    "arroces": {
+      "es": "Arroces",
+      "en": "Rice",
+      "it": "Riso",
+      "fr": "Riz"
+    },
+    "cuchara": {
+      "es": "De cuchara",
+      "en": "Soups & stews",
+      "it": "Zuppe e stufati",
+      "fr": "Plats mijotés"
+    },
+    "sartenes": {
+      "es": "Sartenes y revueltos",
+      "en": "Skillets & scrambled eggs",
+      "it": "Padelle e uova",
+      "fr": "Poêlées et œufs"
+    },
+    "mar": {
+      "es": "Del mar",
+      "en": "From the sea",
+      "it": "Dal mare",
+      "fr": "De la mer"
+    },
+    "carnes": {
+      "es": "Carnes",
+      "en": "Meat",
+      "it": "Carni",
+      "fr": "Viandes"
+    },
+    "postres": {
+      "es": "Postres",
+      "en": "Desserts",
+      "it": "Dolci",
+      "fr": "Desserts"
+    },
+    "vinos": {
+      "es": "Carta de vinos",
+      "en": "Wine list",
+      "it": "Carta dei vini",
+      "fr": "Carte des vins"
+    },
+    "bebidas": {
+      "es": "Bebidas",
+      "en": "Drinks",
+      "it": "Bevande",
+      "fr": "Boissons"
+    }
+  },
+  "columns": {
+    "es": [
+      "½",
+      "Ración"
+    ],
+    "en": [
+      "½",
+      "Portion"
+    ],
+    "it": [
+      "½",
+      "Porzione"
+    ],
+    "fr": [
+      "½",
+      "Portion"
+    ]
+  },
+  "order": [
+    "compartir",
+    "mariscos",
+    "huerta",
+    "tablas",
+    "arroces",
+    "cuchara",
+    "sartenes",
+    "mar",
+    "carnes",
+    "postres"
+  ],
+  "menu": {
+    "compartir": {
+      "cols": true,
+      "items": [
+        {
+          "n": {
+            "es": "Jamón ibérico 5 jotas",
+            "en": "Iberian ham (5J)",
+            "it": "Prosciutto iberico (5J)",
+            "fr": "Jambon ibérique (5J)"
+          },
+          "p": "19 / 29 €",
+          "img": "jamon-iberico.webp"
+        },
+        {
+          "n": {
+            "es": "Caña de lomo ibérica",
+            "en": "Iberian cured pork loin",
+            "it": "Lombo di maiale iberico",
+            "fr": "Longe de porc ibérique"
+          },
+          "p": "15 / 25 €"
+        },
+        {
+          "n": {
+            "es": "Surtido ibérico",
+            "en": "Iberian platter",
+            "it": "Selezione iberica",
+            "fr": "Assortiment ibérique"
+          },
+          "p": "29 €",
+          "d": {
+            "es": "Jamón, caña de lomo y queso (200 g)",
+            "en": "Ham, loin & cheese (200 g)",
+            "it": "Prosciutto, lombo e formaggio (200 g)",
+            "fr": "Jambon, longe et fromage (200 g)"
+          }
+        },
+        {
+          "n": {
+            "es": "Patatas salsa brava",
+            "en": "Brava potatoes",
+            "it": "Patate brave piccanti",
+            "fr": "Pommes de terre bravas"
+          },
+          "p": "8 / 12 €",
+          "d": {
+            "es": "Patatas fritas con dos salsas picantes",
+            "en": "Fried potatoes, two spicy sauces",
+            "it": "Patate fritte, due salse piccanti",
+            "fr": "Pommes de terre, deux sauces épicées"
+          },
+          "img": "patatas-bravas.webp"
+        },
+        {
+          "n": {
+            "es": "Patatas con crema de cabrales",
+            "en": "Potatoes in Cabrales cheese cream",
+            "it": "Patate con crema di Cabrales",
+            "fr": "Pommes de terre à la crème de Cabrales"
+          },
+          "p": "9 / 13 €",
+          "d": {
+            "es": "Con salsa de queso azul",
+            "en": "With blue cheese sauce",
+            "it": "Con salsa al formaggio blu",
+            "fr": "Sauce au fromage bleu"
+          },
+          "img": "patatas-crema-cabrales.webp"
+        },
+        {
+          "n": {
+            "es": "Patatas tres salsas",
+            "en": "Potatoes, three sauces",
+            "it": "Patate, tre salse",
+            "fr": "Pommes de terre, trois sauces"
+          },
+          "p": "13 €",
+          "d": {
+            "es": "Bravas, cabrales y alioli",
+            "en": "Brava, cabrales & aioli",
+            "it": "Brava, cabrales e aioli",
+            "fr": "Brava, cabrales et aïoli"
+          },
+          "img": "patatas-tres-salsas.webp"
+        },
+        {
+          "n": {
+            "es": "Ensaladilla de pulpo",
+            "en": "Octopus 'ensaladilla' salad",
+            "it": "Insalata russa di polpo",
+            "fr": "Salade russe au poulpe"
+          },
+          "p": "8 / 12 €",
+          "d": {
+            "es": "Al pimentón de la Vera",
+            "en": "Octopus salad, La Vera paprika",
+            "it": "Insalata di polpo, paprika della Vera",
+            "fr": "Salade de poulpe, paprika de la Vera"
+          },
+          "img": "ensaladilla-de-pulpo.webp"
+        },
+        {
+          "n": {
+            "es": "Pastel de cabracho",
+            "en": "Scorpionfish pâté",
+            "it": "Pâté di scorfano",
+            "fr": "Pâté de rascasse"
+          },
+          "p": "9 €",
+          "img": "pastel-de-cabracho.webp"
+        },
+        {
+          "n": {
+            "es": "Queso puro de oveja Collada DOP",
+            "en": "Collada DOP pure sheep cheese",
+            "it": "Formaggio di pecora Collada DOP",
+            "fr": "Fromage pur brebis Collada AOP"
+          },
+          "p": "9 / 14 €",
+          "d": {
+            "es": "Con gelatina de vino de Cangas",
+            "en": "Sheep cheese with Cangas wine jelly",
+            "it": "Pecorino con gelatina di vino di Cangas",
+            "fr": "Brebis, gelée de vin de Cangas"
+          },
+          "dop": true
+        },
+        {
+          "n": {
+            "es": "Queso de Cabrales DOP",
+            "en": "Cabrales DOP blue cheese",
+            "it": "Formaggio Cabrales DOP",
+            "fr": "Fromage Cabrales AOP"
+          },
+          "p": "9 / 15 €",
+          "d": {
+            "es": "Con dulce de manzana ecológico",
+            "en": "With organic apple jelly",
+            "it": "Con confettura di mela bio",
+            "fr": "Confiture de pomme bio"
+          },
+          "dop": true
+        },
+        {
+          "n": {
+            "es": "Queso Gamoneu DOP",
+            "en": "Gamoneu DOP cheese",
+            "it": "Formaggio Gamoneu DOP",
+            "fr": "Fromage Gamoneu AOP"
+          },
+          "p": "9 / 16 €",
+          "dop": true
+        },
+        {
+          "n": {
+            "es": "Queso de cabra curado a la plancha",
+            "en": "Grilled cured goat cheese",
+            "it": "Caprino stagionato alla piastra",
+            "fr": "Fromage de chèvre affiné grillé"
+          },
+          "p": "9 €",
+          "d": {
+            "es": "Con mermelada de arándanos",
+            "en": "Grilled goat cheese, cranberry jam",
+            "it": "Caprino grigliato, marmellata di mirtilli",
+            "fr": "Chèvre grillé, confiture de myrtilles"
+          }
+        },
+        {
+          "n": {
+            "es": "Chorizos asturianos a la sidra",
+            "en": "Asturian chorizo in cider",
+            "it": "Chorizo asturiano al sidro",
+            "fr": "Chorizo asturien au cidre"
+          },
+          "p": "9 / 13 €",
+          "img": "chorizos-sidra.webp"
+        },
+        {
+          "n": {
+            "es": "Buñuelos de chorizo a la sidra",
+            "en": "Chorizo fritters in cider",
+            "it": "Frittelle di chorizo al sidro",
+            "fr": "Beignets de chorizo au cidre"
+          },
+          "p": "8 / 14 €"
+        },
+        {
+          "n": {
+            "es": "Chorizo criollo con chimichurri",
+            "en": "Creole sausage, chimichurri",
+            "it": "Salsiccia creola, chimichurri",
+            "fr": "Saucisse créole, chimichurri"
+          },
+          "p": "8 €"
+        },
+        {
+          "n": {
+            "es": "Tosta de anchoa del Cantábrico",
+            "en": "Cantabrian anchovy toast",
+            "it": "Tostada con acciuga del Cantabrico",
+            "fr": "Toast à l'anchois de Cantabrie"
+          },
+          "p": "3,20 €",
+          "d": {
+            "es": "Unidad",
+            "en": "Cantabrian anchovy toast (each)",
+            "it": "Toast di acciuga del Cantabrico",
+            "fr": "Toast d'anchois de Cantabrie"
+          }
+        },
+        {
+          "n": {
+            "es": "Mejillones salsa diávola",
+            "en": "Mussels, diavola sauce",
+            "it": "Cozze alla diavola",
+            "fr": "Moules sauce diavola"
+          },
+          "p": "8 / 14 €"
+        },
+        {
+          "n": {
+            "es": "Mejillones salsa cabrales",
+            "en": "Mussels, cabrales sauce",
+            "it": "Cozze al cabrales",
+            "fr": "Moules sauce cabrales"
+          },
+          "p": "8 / 14 €",
+          "img": "mejillones-cabrales.webp"
+        },
+        {
+          "n": {
+            "es": "Pulpo a la brasa",
+            "en": "Grilled octopus",
+            "it": "Polpo alla brace",
+            "fr": "Poulpe grillé"
+          },
+          "p": "23 €",
+          "d": {
+            "es": "Con salsa sanabresa",
+            "en": "Grilled octopus, sanabresa sauce",
+            "it": "Polpo alla brace, salsa sanabresa",
+            "fr": "Poulpe grillé, sauce sanabresa"
+          }
+        },
+        {
+          "n": {
+            "es": "Croquetas de pixín con langostinos",
+            "en": "Monkfish & prawn croquettes",
+            "it": "Crocchette di rana pescatrice e gamberi",
+            "fr": "Croquettes de lotte et gambas"
+          },
+          "p": "9 / 14 €",
+          "d": {
+            "es": "Rape y langostinos",
+            "en": "Monkfish & prawn croquettes",
+            "it": "Crocchette di rana pescatrice e gamberi",
+            "fr": "Croquettes de lotte et gambas"
+          }
+        },
+        {
+          "n": {
+            "es": "Croquetas de cecina",
+            "en": "Cured beef croquettes",
+            "it": "Crocchette di cecina",
+            "fr": "Croquettes de cecina"
+          },
+          "p": "9 / 14 €"
+        },
+        {
+          "n": {
+            "es": "Croquetas de queso cabrales",
+            "en": "Cabrales cheese croquettes",
+            "it": "Crocchette al cabrales",
+            "fr": "Croquettes au cabrales"
+          },
+          "p": "9 / 14 €"
+        },
+        {
+          "n": {
+            "es": "Croquetas de carabineros",
+            "en": "Scarlet prawn croquettes",
+            "it": "Crocchette di gambero rosso",
+            "fr": "Croquettes de carabineros"
+          },
+          "p": "10 / 15 €"
+        },
+        {
+          "n": {
+            "es": "Croquetas variadas",
+            "en": "Assorted croquettes",
+            "it": "Crocchette miste",
+            "fr": "Croquettes variées"
+          },
+          "p": "16 €"
+        },
+        {
+          "n": {
+            "es": "Gambón a la gabardina",
+            "en": "Battered king prawns",
+            "it": "Gamberoni in pastella",
+            "fr": "Gambas en beignet"
+          },
+          "p": "9 / 16 €"
+        },
+        {
+          "n": {
+            "es": "Lagrimitas de presa ibérica",
+            "en": "Crispy Iberian pork strips",
+            "it": "Striscioline di maiale iberico fritte",
+            "fr": "Lamelles croustillantes de porc ibérique"
+          },
+          "p": "9 / 15 €",
+          "d": {
+            "es": "Con alioli rojo",
+            "en": "Iberian pork bites, red aioli",
+            "it": "Bocconcini di presa iberica, aioli rosso",
+            "fr": "Émincé de porc ibérique, aïoli rouge"
+          },
+          "img": "lagrimitas-presa-iberica.webp"
+        },
+        {
+          "n": {
+            "es": "Pimientos de Padrón",
+            "en": "Padrón peppers",
+            "it": "Peperoni di Padrón",
+            "fr": "Piments de Padrón"
+          },
+          "p": "10 €"
+        },
+        {
+          "n": {
+            "es": "Pan y picos",
+            "en": "Bread & breadsticks",
+            "it": "Pane e grissini",
+            "fr": "Pain et gressins"
+          },
+          "p": "1,20 €"
+        }
+      ]
+    },
+    "mariscos": {
+      "items": [
+        {
+          "n": {
+            "es": "Ostras",
+            "en": "Oysters",
+            "it": "Ostriche",
+            "fr": "Huîtres"
+          },
+          "p": "4,50 €",
+          "d": {
+            "es": "Unidad",
+            "en": "Oysters (each)",
+            "it": "Ostriche (cad.)",
+            "fr": "Huîtres (pièce)"
+          },
+          "img": "ostras.webp"
+        },
+        {
+          "n": {
+            "es": "Mejillones al natural",
+            "en": "Mussels au naturel",
+            "it": "Cozze al naturale",
+            "fr": "Moules nature"
+          },
+          "p": "8 / 12 €"
+        },
+        {
+          "n": {
+            "es": "Zamburiñas a la plancha",
+            "en": "Grilled queen scallops",
+            "it": "Canestrelli alla piastra",
+            "fr": "Pétoncles grillés"
+          },
+          "p": "15 €"
+        },
+        {
+          "n": {
+            "es": "Gambón a la plancha",
+            "en": "Grilled king prawns",
+            "it": "Gamberoni alla piastra",
+            "fr": "Gambas grillées"
+          },
+          "p": "18 €",
+          "img": "gambon-a-la-plancha.webp"
+        },
+        {
+          "n": {
+            "es": "Según temporada",
+            "en": "Seasonal selection",
+            "it": "Secondo stagione",
+            "fr": "Selon la saison"
+          },
+          "p": "S/M",
+          "d": {
+            "es": "Consulta el marisco del día",
+            "en": "Ask for today's seafood",
+            "it": "Chiedi il pescato del giorno",
+            "fr": "Demandez l'arrivage du jour"
+          }
+        }
+      ]
+    },
+    "huerta": {
+      "items": [
+        {
+          "n": {
+            "es": "Ensalada mixta",
+            "en": "Mixed salad",
+            "it": "Insalata mista",
+            "fr": "Salade mixte"
+          },
+          "p": "15 €"
+        },
+        {
+          "n": {
+            "es": "Ensalada gascona",
+            "en": "Gascona house salad",
+            "it": "Insalata Gascona",
+            "fr": "Salade Gascona"
+          },
+          "p": "15 €",
+          "d": {
+            "es": "Hojas, cabrales, manzana y nueces",
+            "en": "Leaves, cabrales, apple & walnuts",
+            "it": "Insalata, cabrales, mela e noci",
+            "fr": "Salade, cabrales, pomme et noix"
+          }
+        },
+        {
+          "n": {
+            "es": "Ensalada de cogollos",
+            "en": "Little gem lettuce salad",
+            "it": "Insalata di cuori di lattuga",
+            "fr": "Salade de cœurs de laitue"
+          },
+          "p": "16 €",
+          "d": {
+            "es": "Con bonito y anchoas",
+            "en": "Lettuce hearts, tuna & anchovies",
+            "it": "Lattughini, tonno e acciughe",
+            "fr": "Cœurs de laitue, thon et anchois"
+          }
+        },
+        {
+          "n": {
+            "es": "Tomate natural con bonito",
+            "en": "Fresh tomato with white tuna",
+            "it": "Pomodoro fresco con tonno bianco",
+            "fr": "Tomate fraîche au thon blanc"
+          },
+          "p": "15 €",
+          "d": {
+            "es": "Bonito del Cantábrico",
+            "en": "Tomato & Cantabrian tuna",
+            "it": "Pomodoro e tonno del Cantabrico",
+            "fr": "Tomate et thon de Cantabrie"
+          }
+        },
+        {
+          "n": {
+            "es": "Parrillada de verduras frescas",
+            "en": "Grilled fresh vegetables",
+            "it": "Verdure fresche grigliate",
+            "fr": "Légumes frais grillés"
+          },
+          "p": "18 €"
+        },
+        {
+          "n": {
+            "es": "Flores de alcachofas confitadas",
+            "en": "Confit artichoke flowers",
+            "it": "Fiori di carciofo confit",
+            "fr": "Fleurs d'artichaut confites"
+          },
+          "p": "12 €",
+          "d": {
+            "es": "A la marinera",
+            "en": "Confit artichokes, marinara",
+            "it": "Carciofi confit alla marinara",
+            "fr": "Artichauts confits à la marinière"
+          }
+        }
+      ]
+    },
+    "tablas": {
+      "items": [
+        {
+          "n": {
+            "es": "Tabla de quesos asturianos",
+            "en": "Asturian cheese board",
+            "it": "Tagliere di formaggi asturiani",
+            "fr": "Planche de fromages asturiens"
+          },
+          "p": "19 €",
+          "d": {
+            "es": "Cabrales, Gamoneu, Afuega'l Pitu, oveja Collada, 3 leches y vaca a la sidra",
+            "en": "Cabrales, Gamoneu, Afuega'l Pitu, sheep, 3-milk & cider cow cheese",
+            "it": "Selezione di formaggi asturiani",
+            "fr": "Sélection de fromages asturiens"
+          },
+          "img": "tabla-quesos.webp"
+        },
+        {
+          "n": {
+            "es": "Tabla de embutidos asturianos",
+            "en": "Asturian cured meats board",
+            "it": "Tagliere di salumi asturiani",
+            "fr": "Planche de charcuterie asturienne"
+          },
+          "p": "19 €",
+          "d": {
+            "es": "Cecina, salchichón con castaña, longaniza y chosco de Tineo",
+            "en": "Cured beef, chestnut salami, longaniza & chosco de Tineo",
+            "it": "Salumi asturiani misti",
+            "fr": "Charcuterie asturienne"
+          },
+          "img": "tabla-embutidos.webp"
+        },
+        {
+          "n": {
+            "es": "Tabla de quesos y embutidos",
+            "en": "Cheese & cured meats board",
+            "it": "Tagliere di formaggi e salumi",
+            "fr": "Planche de fromages et charcuterie"
+          },
+          "p": "35 €",
+          "d": {
+            "es": "Opción sin gluten",
+            "en": "Cheese & charcuterie · gluten-free option",
+            "it": "Formaggi e salumi · senza glutine",
+            "fr": "Fromages et charcuterie · sans gluten"
+          }
+        }
+      ]
+    },
+    "arroces": {
+      "note": {
+        "es": "Mínimo 2 personas · precio por persona",
+        "en": "Min. 2 people · price per person",
+        "it": "Min. 2 persone · prezzo a persona",
+        "fr": "Min. 2 personnes · prix par personne"
+      },
+      "items": [
+        {
+          "n": {
+            "es": "Arroz marinero",
+            "en": "Seafood rice",
+            "it": "Riso ai frutti di mare",
+            "fr": "Riz aux fruits de mer"
+          },
+          "p": "18 €",
+          "img": "arroz-marinero.webp"
+        },
+        {
+          "n": {
+            "es": "Arroz de la huerta",
+            "en": "Vegetable rice",
+            "it": "Riso alle verdure",
+            "fr": "Riz aux légumes"
+          },
+          "p": "16 €"
+        },
+        {
+          "n": {
+            "es": "Arroz mar y montaña",
+            "en": "Surf & turf rice",
+            "it": "Riso mare e monti",
+            "fr": "Riz terre et mer"
+          },
+          "p": "18 €"
+        },
+        {
+          "n": {
+            "es": "Arroz gascona",
+            "en": "Gascona-style rice",
+            "it": "Riso alla Gascona",
+            "fr": "Riz à la Gascona"
+          },
+          "p": "17 €",
+          "d": {
+            "es": "Ternera, costillas, chorizo criollo y chistorra",
+            "en": "Veal, ribs, creole sausage & chistorra",
+            "it": "Vitello, costine e salsicce",
+            "fr": "Veau, côtes et saucisses"
+          },
+          "img": "arroz-gascona.webp"
+        },
+        {
+          "n": {
+            "es": "Paella mixta",
+            "en": "Mixed paella",
+            "it": "Paella mista",
+            "fr": "Paella mixte"
+          },
+          "p": "16 €"
+        },
+        {
+          "n": {
+            "es": "Paella de marisco",
+            "en": "Seafood paella",
+            "it": "Paella ai frutti di mare",
+            "fr": "Paella aux fruits de mer"
+          },
+          "p": "18 €"
+        }
+      ]
+    },
+    "cuchara": {
+      "items": [
+        {
+          "n": {
+            "es": "Fabada asturiana",
+            "en": "Asturian fabada bean stew",
+            "it": "Fabada asturiana (stufato di fagioli)",
+            "fr": "Fabada asturienne (ragoût de haricots)"
+          },
+          "p": "5,80 / 16 / 30 / 58 €",
+          "d": {
+            "es": "Tapa · ración · 2 pers. · 4 pers.",
+            "en": "Asturian bean stew · tapa/portion/2/4",
+            "it": "Fabada asturiana · tapa/porz./2/4",
+            "fr": "Fabada asturienne · tapa/portion/2/4"
+          },
+          "img": "fabada-asturiana.webp"
+        }
+      ]
+    },
+    "sartenes": {
+      "items": [
+        {
+          "n": {
+            "es": "Pulpo a la gallega",
+            "en": "Galician-style octopus",
+            "it": "Polpo alla galiziana",
+            "fr": "Poulpe à la galicienne"
+          },
+          "p": "23 €",
+          "img": "pulpo-a-la-gallega.webp"
+        },
+        {
+          "n": {
+            "es": "Sartén de bacalao con gulas y gambas",
+            "en": "Cod, elvers & prawns skillet",
+            "it": "Padella di baccalà, gulas e gamberi",
+            "fr": "Poêlée de morue, civelles et gambas"
+          },
+          "p": "18 €",
+          "img": "sarten-bacalao-gulas.webp"
+        },
+        {
+          "n": {
+            "es": "Sartén de setas al ajillo",
+            "en": "Garlic wild mushrooms",
+            "it": "Funghi all'aglio in padella",
+            "fr": "Poêlée de champignons à l'ail"
+          },
+          "p": "16 €",
+          "d": {
+            "es": "Con jamón y gambas",
+            "en": "Garlic mushrooms, ham & prawns",
+            "it": "Funghi all'aglio, prosciutto e gamberi",
+            "fr": "Champignons à l'ail, jambon et gambas"
+          }
+        },
+        {
+          "n": {
+            "es": "Huevos rotos con txistorra",
+            "en": "Broken eggs with txistorra sausage",
+            "it": "Uova rotte con txistorra",
+            "fr": "Œufs cassés à la txistorra"
+          },
+          "p": "15 €",
+          "d": {
+            "es": "Con patatas y txistorra de Navarra",
+            "en": "Broken eggs, potatoes & chistorra",
+            "it": "Uova rotte, patate e chistorra",
+            "fr": "Œufs cassés, pommes de terre et chistorra"
+          },
+          "img": "huevos-rotos-txistorra.webp"
+        },
+        {
+          "n": {
+            "es": "Huevos rotos con gulas y langostinos",
+            "en": "Broken eggs, elvers & prawns",
+            "it": "Uova rotte, gulas e gamberoni",
+            "fr": "Œufs cassés, civelles et gambas"
+          },
+          "p": "16 €",
+          "img": "huevos-gulas-langostinos.webp"
+        },
+        {
+          "n": {
+            "es": "Huevos rotos con trufa",
+            "en": "Broken eggs with truffle",
+            "it": "Uova rotte al tartufo",
+            "fr": "Œufs cassés à la truffe"
+          },
+          "p": "18 €",
+          "d": {
+            "es": "Con patatas y trufa",
+            "en": "Broken eggs, potatoes & truffle",
+            "it": "Uova rotte, patate e tartufo",
+            "fr": "Œufs cassés, pommes de terre et truffe"
+          }
+        },
+        {
+          "n": {
+            "es": "Revuelto de bacalao",
+            "en": "Cod scrambled eggs",
+            "it": "Uova strapazzate al baccalà",
+            "fr": "Œufs brouillés à la morue"
+          },
+          "p": "16 €"
+        },
+        {
+          "n": {
+            "es": "Revuelto de setas con jamón",
+            "en": "Mushroom & ham scrambled eggs",
+            "it": "Uova strapazzate funghi e prosciutto",
+            "fr": "Œufs brouillés champignons et jambon"
+          },
+          "p": "16 €"
+        },
+        {
+          "n": {
+            "es": "Revuelto aragonés",
+            "en": "Aragonese-style scrambled eggs",
+            "it": "Uova strapazzate aragonesi",
+            "fr": "Œufs brouillés à l'aragonaise"
+          },
+          "p": "15 €",
+          "d": {
+            "es": "De verduras",
+            "en": "Vegetable scrambled eggs",
+            "it": "Uova strapazzate alle verdure",
+            "fr": "Œufs brouillés aux légumes"
+          }
+        }
+      ]
+    },
+    "mar": {
+      "items": [
+        {
+          "n": {
+            "es": "Tataki de atún",
+            "en": "Tuna tataki",
+            "it": "Tataki di tonno",
+            "fr": "Tataki de thon"
+          },
+          "p": "9 / 16 €",
+          "d": {
+            "es": "Opción sin lactosa",
+            "en": "Tuna tataki · lactose-free option",
+            "it": "Tataki di tonno · senza lattosio",
+            "fr": "Tataki de thon · sans lactose"
+          },
+          "img": "tataki-de-atun.webp"
+        },
+        {
+          "n": {
+            "es": "Lomo de bacalao gratinado",
+            "en": "Gratinated cod loin",
+            "it": "Filetto di baccalà gratinato",
+            "fr": "Dos de morue gratiné"
+          },
+          "p": "19 €",
+          "img": "bacalao-gratinado.webp"
+        },
+        {
+          "n": {
+            "es": "Lomo de bacalao con gulas y langostinos",
+            "en": "Cod loin, elvers & prawns",
+            "it": "Baccalà con gulas e gamberoni",
+            "fr": "Morue, civelles et gambas"
+          },
+          "p": "20 €"
+        },
+        {
+          "n": {
+            "es": "Calamares fritos",
+            "en": "Fried squid",
+            "it": "Calamari fritti",
+            "fr": "Calamars frits"
+          },
+          "p": "9 / 16 €",
+          "img": "calamares-fritos.webp"
+        },
+        {
+          "n": {
+            "es": "Chipirones fritos",
+            "en": "Fried baby squid",
+            "it": "Calamaretti fritti",
+            "fr": "Petits calamars frits"
+          },
+          "p": "9 / 16 €"
+        },
+        {
+          "n": {
+            "es": "Pavías de dorada",
+            "en": "Battered sea bream strips",
+            "it": "Filetti di orata in pastella",
+            "fr": "Beignets de dorade"
+          },
+          "p": "10 / 16 €",
+          "d": {
+            "es": "Con mahonesa de curry",
+            "en": "Battered sea bream, curry mayo",
+            "it": "Orata in pastella, maionese al curry",
+            "fr": "Dorade en beignet, mayo curry"
+          }
+        },
+        {
+          "n": {
+            "es": "Fritos de bacalao",
+            "en": "Fried cod",
+            "it": "Baccalà fritto",
+            "fr": "Morue frite"
+          },
+          "p": "11 / 19 €"
+        },
+        {
+          "n": {
+            "es": "Lubina a la espalda",
+            "en": "Grilled butterflied sea bass",
+            "it": "Branzino aperto alla griglia",
+            "fr": "Bar grillé ouvert"
+          },
+          "p": "24 €",
+          "d": {
+            "es": "Con guarnición de verduras",
+            "en": "Grilled sea bass with vegetables",
+            "it": "Branzino con verdure",
+            "fr": "Bar grillé, garniture de légumes"
+          },
+          "img": "lubina-a-la-espalda.webp"
+        }
+      ]
+    },
+    "carnes": {
+      "items": [
+        {
+          "n": {
+            "es": "Cachopo tradicional",
+            "en": "Traditional cachopo (breaded stuffed veal)",
+            "it": "Cachopo tradizionale (cotoletta ripiena)",
+            "fr": "Cachopo traditionnel (escalope farcie)"
+          },
+          "p": "25 €",
+          "d": {
+            "es": "Ternera asturiana IGP, jamón ibérico y queso de Oscos",
+            "en": "Asturian beef, Iberian ham & Oscos cheese",
+            "it": "Cachopo: manzo asturiano, prosciutto e formaggio",
+            "fr": "Cachopo : bœuf asturien, jambon et fromage"
+          }
+        },
+        {
+          "n": {
+            "es": "Cachopo gascona",
+            "en": "Gascona cachopo",
+            "it": "Cachopo Gascona",
+            "fr": "Cachopo Gascona"
+          },
+          "p": "26 €",
+          "d": {
+            "es": "Con setas, gambas y alioli",
+            "en": "With mushrooms, prawns & aioli",
+            "it": "Con funghi, gamberi e aioli",
+            "fr": "Champignons, gambas et aïoli"
+          }
+        },
+        {
+          "n": {
+            "es": "Cachopo cabrales",
+            "en": "Cabrales cachopo",
+            "it": "Cachopo al Cabrales",
+            "fr": "Cachopo au Cabrales"
+          },
+          "p": "26 €",
+          "d": {
+            "es": "Con cecina y queso de cabrales",
+            "en": "With cured beef & cabrales cheese",
+            "it": "Con cecina e cabrales",
+            "fr": "Cecina et cabrales"
+          }
+        },
+        {
+          "n": {
+            "es": "Cachopo sin gluten / sin lactosa",
+            "en": "Gluten-free / lactose-free cachopo",
+            "it": "Cachopo senza glutine/lattosio",
+            "fr": "Cachopo sans gluten/lactose"
+          },
+          "p": "26 €"
+        },
+        {
+          "n": {
+            "es": "Solomillo de cerdo con cabrales",
+            "en": "Pork tenderloin in Cabrales sauce",
+            "it": "Filetto di maiale al Cabrales",
+            "fr": "Filet de porc au Cabrales"
+          },
+          "p": "16 €",
+          "d": {
+            "es": "Salsa de cabrales",
+            "en": "Pork fillet, cabrales sauce",
+            "it": "Filetto di maiale al cabrales",
+            "fr": "Filet de porc, sauce cabrales"
+          }
+        },
+        {
+          "n": {
+            "es": "Solomillo de cerdo con setas",
+            "en": "Pork tenderloin with wild mushrooms",
+            "it": "Filetto di maiale ai funghi",
+            "fr": "Filet de porc aux champignons"
+          },
+          "p": "16 €",
+          "d": {
+            "es": "Y crujientes de jamón",
+            "en": "Pork fillet, mushrooms & crispy ham",
+            "it": "Filetto di maiale, funghi e prosciutto croccante",
+            "fr": "Filet de porc, champignons et jambon croustillant"
+          }
+        },
+        {
+          "n": {
+            "es": "Pierna de cordero Xaldo al horno",
+            "en": "Roast Xaldo lamb leg",
+            "it": "Coscia di agnello Xaldo al forno",
+            "fr": "Gigot d'agneau Xaldo rôti"
+          },
+          "p": "27 €",
+          "d": {
+            "es": "Lechal asturiano",
+            "en": "Roast Asturian milk-fed lamb",
+            "it": "Agnello asturiano al forno",
+            "fr": "Agneau de lait asturien rôti"
+          }
+        },
+        {
+          "n": {
+            "es": "Presa ibérica",
+            "en": "Iberian pork shoulder steak",
+            "it": "Presa iberica (spalla di maiale)",
+            "fr": "Presa ibérique (échine de porc)"
+          },
+          "p": "20 €",
+          "d": {
+            "es": "Con mojo picón y crujientes de jamón",
+            "en": "Iberian pork, mojo picón & crispy ham",
+            "it": "Presa iberica, mojo picón e prosciutto",
+            "fr": "Presa ibérique, mojo picón et jambon"
+          }
+        },
+        {
+          "n": {
+            "es": "Cochinillo asado",
+            "en": "Roast suckling pig",
+            "it": "Maialino da latte arrosto",
+            "fr": "Cochon de lait rôti"
+          },
+          "p": "27 €",
+          "d": {
+            "es": "Ración",
+            "en": "Roast suckling pig (portion)",
+            "it": "Maialino arrosto (porzione)",
+            "fr": "Cochon de lait rôti (portion)"
+          }
+        },
+        {
+          "n": {
+            "es": "Parrillada de carnes",
+            "en": "Mixed grilled meats",
+            "it": "Grigliata mista di carni",
+            "fr": "Grillade de viandes"
+          },
+          "p": "39 €",
+          "d": {
+            "es": "2 personas",
+            "en": "Mixed grill (2 people)",
+            "it": "Grigliata di carne (2 pers.)",
+            "fr": "Grillade de viandes (2 pers.)"
+          },
+          "img": "parrillada-de-carnes.webp"
+        },
+        {
+          "n": {
+            "es": "Solomillo de ternera asturiana IGP",
+            "en": "Asturian beef tenderloin PGI",
+            "it": "Filetto di manzo asturiano IGP",
+            "fr": "Filet de bœuf asturien IGP"
+          },
+          "p": "29 €",
+          "d": {
+            "es": "A la parrilla",
+            "en": "Grilled Asturian beef sirloin",
+            "it": "Filetto di manzo asturiano",
+            "fr": "Filet de bœuf asturien"
+          },
+          "img": "solomillo-ternera.webp"
+        },
+        {
+          "n": {
+            "es": "Entrecot de ternera asturiana IGP",
+            "en": "Asturian beef entrecôte PGI",
+            "it": "Entrecôte di manzo asturiano IGP",
+            "fr": "Entrecôte de bœuf asturien IGP"
+          },
+          "p": "28 €",
+          "d": {
+            "es": "400 g, menos de 12 meses",
+            "en": "Asturian veal entrecôte, 400 g",
+            "it": "Entrecôte di vitello asturiano, 400 g",
+            "fr": "Entrecôte de veau asturien, 400 g"
+          }
+        },
+        {
+          "n": {
+            "es": "Chuletón de vacuno asturiano IGP",
+            "en": "Asturian beef rib steak PGI",
+            "it": "Bistecca di manzo asturiano IGP",
+            "fr": "Côte de bœuf asturien IGP"
+          },
+          "p": "55 €",
+          "d": {
+            "es": "A la parrilla",
+            "en": "Asturian T-bone steak",
+            "it": "Bistecca asturiana",
+            "fr": "Côte de bœuf asturienne"
+          }
+        },
+        {
+          "n": {
+            "es": "Hamburguesa de ternera asturiana",
+            "en": "Asturian beef burger",
+            "it": "Hamburger di manzo asturiano",
+            "fr": "Burger de bœuf asturien"
+          },
+          "p": "15 €",
+          "d": {
+            "es": "Con beicon, huevo y queso",
+            "en": "Asturian beef burger, bacon, egg & cheese",
+            "it": "Hamburger asturiano, bacon, uovo e formaggio",
+            "fr": "Burger asturien, bacon, œuf et fromage"
+          },
+          "img": "hamburguesa-ternera.webp"
+        },
+        {
+          "n": {
+            "es": "Picaña de ternera asturiana",
+            "en": "Asturian beef picanha",
+            "it": "Picanha di manzo asturiano",
+            "fr": "Picanha de bœuf asturien"
+          },
+          "p": "24 €",
+          "d": {
+            "es": "A la parrilla",
+            "en": "Grilled Asturian picanha",
+            "it": "Picanha asturiana",
+            "fr": "Picanha asturienne"
+          }
+        }
+      ]
+    },
+    "postres": {
+      "items": [
+        {
+          "n": {
+            "es": "Frixuelo relleno de arroz con leche",
+            "en": "Crêpe filled with rice pudding",
+            "it": "Crêpe con riso al latte",
+            "fr": "Crêpe au riz au lait"
+          },
+          "p": "6,50 €"
+        },
+        {
+          "n": {
+            "es": "Frixuelo con chocolate y nata",
+            "en": "Crêpe with chocolate & cream",
+            "it": "Crêpe con cioccolato e panna",
+            "fr": "Crêpe chocolat et crème"
+          },
+          "p": "5,50 €"
+        },
+        {
+          "n": {
+            "es": "Frixuelo con helado",
+            "en": "Crêpe with ice cream",
+            "it": "Crêpe con gelato",
+            "fr": "Crêpe avec glace"
+          },
+          "p": "6,50 €"
+        },
+        {
+          "n": {
+            "es": "Tarta de queso al horno",
+            "en": "Baked cheesecake",
+            "it": "Cheesecake al forno",
+            "fr": "Cheesecake au four"
+          },
+          "p": "5,50 €",
+          "img": "tarta-de-queso.webp"
+        },
+        {
+          "n": {
+            "es": "Tarta de la abuela",
+            "en": "Grandma's chocolate biscuit cake",
+            "it": "Torta della nonna (biscotti e cioccolato)",
+            "fr": "Gâteau de grand-mère (biscuits et chocolat)"
+          },
+          "p": "5,50 €",
+          "d": {
+            "es": "Chocolate, natillas y galleta",
+            "en": "Chocolate, custard & biscuit cake",
+            "it": "Torta cioccolato, crema e biscotto",
+            "fr": "Gâteau chocolat, crème et biscuit"
+          }
+        },
+        {
+          "n": {
+            "es": "Arroz con leche",
+            "en": "Rice pudding",
+            "it": "Riso al latte",
+            "fr": "Riz au lait"
+          },
+          "p": "5 €",
+          "d": {
+            "es": "Con canela o azúcar quemada",
+            "en": "Rice pudding, cinnamon or burnt sugar",
+            "it": "Riso al latte, cannella o caramello",
+            "fr": "Riz au lait, cannelle ou sucre brûlé"
+          },
+          "img": "arroz-con-leche.webp"
+        },
+        {
+          "n": {
+            "es": "Coulant de chocolate",
+            "en": "Chocolate lava cake",
+            "it": "Tortino di cioccolato",
+            "fr": "Coulant au chocolat"
+          },
+          "p": "5,50 €",
+          "d": {
+            "es": "Opción sin gluten",
+            "en": "Chocolate coulant · gluten-free option",
+            "it": "Coulant al cioccolato · senza glutine",
+            "fr": "Coulant au chocolat · sans gluten"
+          }
+        },
+        {
+          "n": {
+            "es": "Coulant de chocolate blanco",
+            "en": "White chocolate coulant",
+            "it": "Coulant cioccolato bianco",
+            "fr": "Coulant chocolat blanc"
+          },
+          "p": "5,50 €"
+        },
+        {
+          "n": {
+            "es": "Torrija de pan brioche con helado",
+            "en": "Brioche torrija with ice cream",
+            "it": "Torrija di brioche con gelato",
+            "fr": "Pain perdu brioché avec glace"
+          },
+          "p": "7,50 €",
+          "img": "torrija-pan-brioche.webp"
+        },
+        {
+          "n": {
+            "es": "Coulant de chocolate con helado",
+            "en": "Chocolate coulant with ice cream",
+            "it": "Coulant al cioccolato con gelato",
+            "fr": "Coulant au chocolat avec glace"
+          },
+          "p": "6,50 €"
+        },
+        {
+          "n": {
+            "es": "Copa de helado",
+            "en": "Cup of ice cream",
+            "it": "Coppa di gelato",
+            "fr": "Coupe de glace"
+          },
+          "p": "5,50 €"
+        }
+      ]
+    }
+  },
+  "wines": [
+    {
+      "h": {
+        "es": "Vinos asturianos",
+        "en": "Asturian wines",
+        "it": "Vini asturiani",
+        "fr": "Vins asturiens"
+      },
+      "l": [
+        [
+          "Monasterio de Corias · Tinto Crianza",
+          "3,80 / 24 €"
+        ],
+        [
+          "Monasterio de Corias · Blanco",
+          "3,80 / 24 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Ribera del Duero",
+        "en": "Ribera del Duero",
+        "it": "Ribera del Duero",
+        "fr": "Ribera del Duero"
+      },
+      "l": [
+        [
+          "Protos",
+          "3,20 / 18 €"
+        ],
+        [
+          "Caballero Mendoza",
+          "3,50 / 20 €"
+        ],
+        [
+          "Finca Resalso (Emilio Moro)",
+          "3,50 / 20 €"
+        ],
+        [
+          "Concejo (Cigales)",
+          "25 €"
+        ],
+        [
+          "Antídoto",
+          "29 €"
+        ],
+        [
+          "Emilio Moro",
+          "34 €"
+        ],
+        [
+          "Malleolus",
+          "52 €"
+        ],
+        [
+          "PSI · Dominio de Pingus",
+          "59 €"
+        ],
+        [
+          "Alión (Vega Sicilia)",
+          "98 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Rioja",
+        "en": "Rioja",
+        "it": "Rioja",
+        "fr": "Rioja"
+      },
+      "l": [
+        [
+          "Montecillo Crianza",
+          "3 / 17 €"
+        ],
+        [
+          "La Poda Garnacha",
+          "3,20 / 19 €"
+        ],
+        [
+          "Montecillo Reserva",
+          "3,80 / 23 €"
+        ],
+        [
+          "Márquez y Bengoa Reserva",
+          "3,80 / 23 €"
+        ],
+        [
+          "Ladrón de Guevara",
+          "3,80 / 24 €"
+        ],
+        [
+          "Andén de la Estación (Muga)",
+          "3,80 / 24 €"
+        ],
+        [
+          "Montecillo Edición Limitada",
+          "25 €"
+        ],
+        [
+          "Predicador",
+          "44 €"
+        ],
+        [
+          "Macán Clásico",
+          "59 €"
+        ],
+        [
+          "Macán 2018",
+          "96 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Albariño · Rías Baixas",
+        "en": "Albariño",
+        "it": "Albariño",
+        "fr": "Albariño"
+      },
+      "l": [
+        [
+          "Abadía de San Campio",
+          "3,80 / 22 €"
+        ],
+        [
+          "A Capitana",
+          "3,50 / 20 €"
+        ],
+        [
+          "Terras Gauda",
+          "28 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Rueda · Verdejo",
+        "en": "Rueda · Verdejo",
+        "it": "Rueda · Verdejo",
+        "fr": "Rueda · Verdejo"
+      },
+      "l": [
+        [
+          "Nirio Verdejo",
+          "3 / 18 €"
+        ],
+        [
+          "El Perro Verde",
+          "24 €"
+        ],
+        [
+          "Javier Sanz Verdejo",
+          "3,50 / 20 €"
+        ],
+        [
+          "La Poda Sauvignon Blanc",
+          "3,20 / 19 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Vinos andaluces y generosos",
+        "en": "Andalusian & fortified",
+        "it": "Vini andalusi",
+        "fr": "Vins andalous"
+      },
+      "l": [
+        [
+          "Vallehondo",
+          "3,20 / 19 €"
+        ],
+        [
+          "Barredero",
+          "2,80 / 17 €"
+        ],
+        [
+          "Manzanilla Solear",
+          "3 / 15 €"
+        ],
+        [
+          "Fino Tío Pepe",
+          "3 / 15 €"
+        ],
+        [
+          "Pedro Ximénez",
+          "3 / 15 €"
+        ],
+        [
+          "Canasta",
+          "3 / 16 €"
+        ],
+        [
+          "Alfonso Oloroso",
+          "3,20 / 19 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Otras denominaciones",
+        "en": "Other appellations",
+        "it": "Altre denominazioni",
+        "fr": "Autres appellations"
+      },
+      "l": [
+        [
+          "La Poda · Toro",
+          "3,20 / 19 €"
+        ],
+        [
+          "La Poda · Mencía Valdeorras",
+          "3,20 / 19 €"
+        ],
+        [
+          "La Poda · Godello",
+          "3,20 / 19 €"
+        ],
+        [
+          "Pittacum · Mencía Bierzo",
+          "3,50 / 20 €"
+        ],
+        [
+          "Gotas de Habla · Extremadura",
+          "3 / 18 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Semidulces y rosados",
+        "en": "Semi-sweet & rosé",
+        "it": "Amabili e rosati",
+        "fr": "Demi-doux et rosés"
+      },
+      "l": [
+        [
+          "Novio Perfecto",
+          "2,80 / 16 €"
+        ],
+        [
+          "Flor de Édalo",
+          "2,80 / 16 €"
+        ],
+        [
+          "Hashtag",
+          "2,80 / 16 €"
+        ],
+        [
+          "Murviedro Rosado",
+          "2,80 / 14 €"
+        ],
+        [
+          "Fontana di Fiori Rosado",
+          "2,80 / 14 €"
+        ],
+        [
+          "Inurrieta",
+          "3 / 16 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Sidras y espumosos",
+        "en": "Cider & sparkling",
+        "it": "Sidro e spumanti",
+        "fr": "Cidre et mousseux"
+      },
+      "l": [
+        [
+          "Sidra Trabanco",
+          "5,50 €"
+        ],
+        [
+          "Lagar de Camín (achampanada)",
+          "1,50 / 7 €"
+        ],
+        [
+          "Bocchoris",
+          "20 €"
+        ],
+        [
+          "La Vie en Rose",
+          "24 €"
+        ],
+        [
+          "Moët & Chandon Ice Imperial",
+          "120 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Sangrías",
+        "en": "Sangria",
+        "it": "Sangria",
+        "fr": "Sangria"
+      },
+      "l": [
+        [
+          "Sangría",
+          "4,90 / 16 €"
+        ],
+        [
+          "Sangría de sidra",
+          "16 €"
+        ]
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "h": {
+        "es": "Cervezas",
+        "en": "Beers",
+        "it": "Birre",
+        "fr": "Bières"
+      },
+      "l": [
+        [
+          "Caña / media maceta",
+          "2 €"
+        ],
+        [
+          "Cerveza entera",
+          "3,60 €"
+        ],
+        [
+          "Cerveza copa",
+          "3,20 €"
+        ],
+        [
+          "Sin gluten",
+          "2,90 €"
+        ],
+        [
+          "Estrella Galicia Tercio",
+          "2,80 €"
+        ],
+        [
+          "1906 Tercio",
+          "3 €"
+        ],
+        [
+          "Estrella 0,0",
+          "2,80 €"
+        ],
+        [
+          "Radler",
+          "2,40 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Vermut y aperitivos",
+        "en": "Vermouth & aperitifs",
+        "it": "Vermut e aperitivi",
+        "fr": "Vermouth et apéritifs"
+      },
+      "l": [
+        [
+          "Vermut asturiano ALMA",
+          "3,50 €"
+        ],
+        [
+          "Martini Rosso",
+          "4,50 €"
+        ],
+        [
+          "Tinto de verano",
+          "2,50 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Refrescos",
+        "en": "Soft drinks",
+        "it": "Bibite",
+        "fr": "Sodas"
+      },
+      "l": [
+        [
+          "Coca-Cola / Zero / Zero Zero",
+          "2,50 €"
+        ],
+        [
+          "Fanta naranja / limón",
+          "1,90 €"
+        ],
+        [
+          "Sprite",
+          "1,90 €"
+        ],
+        [
+          "Nestea",
+          "2,40 €"
+        ],
+        [
+          "Aquarius",
+          "2,40 €"
+        ],
+        [
+          "Tónica",
+          "2 €"
+        ],
+        [
+          "Zumos",
+          "2,50 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Aguas",
+        "en": "Water",
+        "it": "Acque",
+        "fr": "Eaux"
+      },
+      "l": [
+        [
+          "Agua premium (pequeña)",
+          "2,20 €"
+        ],
+        [
+          "Agua premium (grande)",
+          "3,50 €"
+        ],
+        [
+          "Agua con gas",
+          "2,50 €"
+        ]
+      ]
+    },
+    {
+      "h": {
+        "es": "Cafés e infusiones",
+        "en": "Coffee & tea",
+        "it": "Caffè e tisane",
+        "fr": "Cafés et infusions"
+      },
+      "l": [
+        [
+          "Café solo",
+          "1,60 €"
+        ],
+        [
+          "Cortado",
+          "1,70 €"
+        ],
+        [
+          "Manchado",
+          "1,80 €"
+        ],
+        [
+          "Con leche",
+          "1,80 €"
+        ],
+        [
+          "Doble",
+          "2,50 €"
+        ],
+        [
+          "Bombón",
+          "2,50 €"
+        ],
+        [
+          "Carajillo",
+          "3 €"
+        ],
+        [
+          "Capuchino",
+          "3 €"
+        ],
+        [
+          "Té / infusiones",
+          "1,50 €"
+        ]
+      ]
+    }
+  ]
+}

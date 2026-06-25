@@ -41,7 +41,7 @@
       linear-gradient(180deg,var(--petroleo) 0%, var(--petroleo-osc) 100%);
     color:var(--crema);
     display:flex;
-    padding:18px;
+    padding:12px;
     overflow-y:auto;-webkit-overflow-scrolling:touch;
     transition:opacity .5s ease, visibility .5s ease;
   }
@@ -53,23 +53,23 @@
     border:1.5px solid var(--dorado);border-radius:22px;
     box-shadow:0 0 0 5px var(--petroleo), 0 0 0 6.5px var(--dorado-osc), 0 18px 50px rgba(0,0,0,.45);
     background:var(--petroleo-2);
-    padding:30px 26px 26px;text-align:center;
+    padding:22px 24px 20px;text-align:center;
     display:flex;flex-direction:column;align-items:center;
   }
-  .barril{width:112px;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.3));}
-  .logo-g1{font-family:'Playfair Display',serif;font-weight:800;font-size:32px;letter-spacing:5px;color:var(--crema);line-height:.9;margin-top:8px;}
-  .logo-g2{font-family:'Playfair Display',serif;font-size:12px;letter-spacing:9px;color:var(--crema);margin-top:5px;}
-  .divisor{width:210px;max-width:80%;height:auto;display:block;margin:7px 0 2px;opacity:.95;}
-  .splash-sub{font-family:'Caveat',cursive;font-size:22px;color:var(--dorado-cl);margin-top:2px;}
-  .splash-tag{font-size:14px;color:#d8cdb8;margin:7px 0 18px;letter-spacing:.3px;max-width:280px;font-style:italic;}
-  .pick{font-family:'Playfair Display',serif;font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--dorado);margin-bottom:12px;text-wrap:balance;max-width:260px;}
-  .langs{display:flex;flex-direction:column;gap:9px;width:100%;max-width:280px;}
+  .barril{width:92px;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.3));}
+  .logo-g1{font-family:'Playfair Display',serif;font-weight:800;font-size:30px;letter-spacing:5px;color:var(--crema);line-height:.9;margin-top:6px;}
+  .logo-g2{font-family:'Playfair Display',serif;font-size:12px;letter-spacing:9px;color:var(--crema);margin-top:4px;}
+  .divisor{width:200px;max-width:78%;height:auto;display:block;margin:5px 0 2px;opacity:.95;}
+  .splash-sub{font-family:'Caveat',cursive;font-size:20px;color:var(--dorado-cl);margin-top:2px;}
+  .splash-tag{font-size:13.5px;color:#d8cdb8;margin:5px 0 12px;letter-spacing:.3px;max-width:280px;font-style:italic;}
+  .pick{font-family:'Playfair Display',serif;font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--dorado);margin-bottom:9px;text-wrap:balance;max-width:260px;}
+  .langs{display:flex;flex-direction:column;gap:7px;width:100%;max-width:280px;}
   .lang{
     display:flex;align-items:center;gap:14px;
     background:rgba(241,226,203,.06);
     border:1px solid rgba(227,184,125,.5);
     color:var(--crema);
-    padding:11px 20px;border-radius:40px;cursor:pointer;
+    padding:9px 20px;border-radius:40px;cursor:pointer;
     font-family:'Playfair Display',serif;font-size:16px;
     transition:background .2s,border-color .2s,transform .1s;
   }
@@ -78,7 +78,7 @@
   .lang .flag{font-size:21px;line-height:1;}
   .lang .nm{flex:1;text-align:left;}
   .lang .ar{color:var(--dorado);font-size:19px;}
-  .splash-foot{margin-top:20px;font-size:12px;color:#b6a98f;letter-spacing:.5px;}
+  .splash-foot{margin-top:12px;font-size:12px;color:#b6a98f;letter-spacing:.5px;}
 
   /* ---------- CARTA ---------- */
   #app{display:none;}
@@ -117,6 +117,7 @@
   nav::-webkit-scrollbar{display:none;}
   nav a{color:var(--crema);text-decoration:none;font-family:'Playfair Display',serif;font-size:12.5px;white-space:nowrap;padding:6px 13px;border-radius:20px;border:1px solid rgba(227,184,125,.3);}
   nav a:active{background:var(--dorado);color:var(--petroleo);}
+  nav a.active{background:var(--dorado);color:var(--petroleo);border-color:var(--dorado);font-weight:700;}
 
   section{padding:8px 22px 4px;}
   .cat{text-align:center;margin:22px 0 14px;}
@@ -133,7 +134,31 @@
   .plato .precio{font-family:'Playfair Display',serif;font-size:16px;color:var(--dorado-osc);font-weight:700;white-space:nowrap;text-align:right;}
   .badge{display:inline-block;background:var(--petroleo);color:var(--crema);font-family:Arial,sans-serif;font-size:9px;font-weight:bold;padding:2px 7px;border-radius:3px;margin-left:6px;letter-spacing:.6px;vertical-align:middle;}
   .badge.dop{background:var(--dorado-osc);color:#fff;}
-  .colhdr{display:flex;justify-content:flex-end;gap:16px;font-family:'Playfair Display',serif;font-size:11px;letter-spacing:1px;color:var(--dorado-osc);text-transform:uppercase;padding-bottom:2px;border-bottom:2px solid var(--linea);margin-bottom:2px;}
+  .colhdr{display:flex;align-items:center;justify-content:flex-end;gap:16px;font-family:'Playfair Display',serif;font-size:12px;letter-spacing:1px;color:var(--dorado-osc);text-transform:uppercase;padding-bottom:2px;border-bottom:2px solid var(--linea);margin-bottom:2px;}
+  .colhdr span:first-child{font-size:18px;letter-spacing:0;font-weight:700;}
+
+  /* ---------- Platos con foto + modal ---------- */
+  .plato.has-foto{cursor:pointer;}
+  .plato.has-foto .cam{display:inline-block;margin-left:7px;color:var(--dorado-osc);opacity:.85;vertical-align:-2px;}
+  .plato.has-foto:active{background:rgba(227,184,125,.12);border-radius:8px;}
+  .modal{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;
+    padding:18px;background:rgba(27,42,50,.74);backdrop-filter:blur(3px);
+    opacity:0;visibility:hidden;transition:opacity .22s ease,visibility .22s ease;}
+  .modal.open{opacity:1;visibility:visible;}
+  .modal-card{position:relative;width:100%;max-width:380px;background:var(--crema-bg);
+    border:1.5px solid var(--dorado);border-radius:18px;
+    box-shadow:0 0 0 4px var(--petroleo),0 0 0 5.5px var(--dorado-osc),0 18px 50px rgba(0,0,0,.5);
+    overflow:hidden;transform:translateY(14px) scale(.98);transition:transform .26s cubic-bezier(.2,.8,.2,1);}
+  .modal.open .modal-card{transform:none;}
+  .modal-imgwrap{width:100%;aspect-ratio:1/1;background:var(--crema-2);overflow:hidden;}
+  .modal-imgwrap img{width:100%;height:100%;object-fit:cover;display:block;}
+  .modal-body{padding:16px 20px 20px;text-align:center;}
+  .modal-name{font-family:'Playfair Display',serif;font-weight:700;font-size:22px;color:var(--petroleo);line-height:1.1;}
+  .modal-desc{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--gris);margin-top:5px;}
+  .modal-price{font-family:'Playfair Display',serif;font-weight:700;font-size:18px;color:var(--dorado-osc);margin-top:11px;}
+  .modal-x{position:absolute;top:10px;right:10px;z-index:2;width:34px;height:34px;border-radius:50%;
+    border:1px solid var(--dorado);background:rgba(27,42,50,.55);color:var(--crema);
+    font-size:21px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;}
 
   .vinos h3{font-family:'Playfair Display',serif;font-size:16px;color:var(--petroleo);margin:16px 0 4px;letter-spacing:.3px;border-bottom:1px solid var(--dorado-osc);padding-bottom:3px;}
   .vino{display:flex;justify-content:space-between;gap:10px;padding:5px 0;font-size:15.5px;}
@@ -199,202 +224,49 @@
   </footer>
 </div></div>
 
+<!-- ====== MODAL DE PLATO ====== -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="mName">
+    <button class="modal-x" id="modalX" aria-label="Cerrar">&times;</button>
+    <div class="modal-imgwrap"><img id="mImg" alt=""></div>
+    <div class="modal-body">
+      <div class="modal-name" id="mName"></div>
+      <div class="modal-desc" id="mDesc"></div>
+      <div class="modal-price" id="mPrice"></div>
+    </div>
+  </div>
+</div>
+
 <script>
-/* ====== TEXTOS DE INTERFAZ ====== */
-const UI = {
-  es:{lema:"Tradición asturiana en el corazón de Triana", info:"Sidrería · Carnes · Mariscos · Cocina asturiana", aler:"Información de alérgenos disponible. Pregunta a nuestro equipo. IVA incluido."},
-  en:{lema:"Asturian tradition in the heart of Triana", info:"Cider house · Grilled meats · Seafood · Asturian cuisine", aler:"Allergen information available on request. VAT included."},
-  it:{lema:"Tradizione asturiana nel cuore di Triana", info:"Sidreria · Carni · Frutti di mare · Cucina asturiana", aler:"Informazioni sugli allergeni disponibili su richiesta. IVA inclusa."},
-  fr:{lema:"Tradition asturienne au cœur de Triana", info:"Cidrerie · Viandes · Fruits de mer · Cuisine asturienne", aler:"Informations sur les allergènes disponibles sur demande. TVA incluse."}
-};
-const SECT = {
-  compartir:{es:"Para compartir",en:"To share",it:"Da condividere",fr:"À partager"},
-  mariscos:{es:"Mariscos",en:"Seafood",it:"Frutti di mare",fr:"Fruits de mer"},
-  huerta:{es:"De la huerta",en:"From our orchard",it:"Dall'orto",fr:"Du potager"},
-  tablas:{es:"En su tabla",en:"On your platter",it:"Taglieri",fr:"Planches"},
-  arroces:{es:"Arroces",en:"Rice",it:"Riso",fr:"Riz"},
-  cuchara:{es:"De cuchara",en:"Soups & stews",it:"Zuppe e stufati",fr:"Plats mijotés"},
-  sartenes:{es:"Sartenes y revueltos",en:"Skillets & scrambled eggs",it:"Padelle e uova",fr:"Poêlées et œufs"},
-  mar:{es:"Del mar",en:"From the sea",it:"Dal mare",fr:"De la mer"},
-  carnes:{es:"Carnes",en:"Meat",it:"Carni",fr:"Viandes"},
-  postres:{es:"Postres",en:"Desserts",it:"Dolci",fr:"Desserts"},
-  vinos:{es:"Carta de vinos",en:"Wine list",it:"Carta dei vini",fr:"Carte des vins"},
-  bebidas:{es:"Bebidas",en:"Drinks",it:"Bevande",fr:"Boissons"}
-};
-const COL = {es:["½","Ración"],en:["½","Portion"],it:["½","Porzione"],fr:["½","Portion"]};
-
-/* ====== DATOS DE LA CARTA ======
-   n = nombre (se mantiene en español, como en la carta original)
-   d = descripción en {es,en,it,fr}
-   p = precio                                              */
-const MENU = {
- compartir:{ cols:true, items:[
-  {n:"Jamón ibérico 5 jotas", p:"19 / 29 €", d:{es:"",en:"Iberian ham (5J)",it:"Prosciutto iberico (5J)",fr:"Jambon ibérique (5J)"}},
-  {n:"Caña de lomo ibérica", p:"15 / 25 €", d:{es:"",en:"Iberian cured pork loin",it:"Lombo di maiale iberico",fr:"Longe de porc ibérique"}},
-  {n:"Surtido ibérico", p:"29 €", d:{es:"Jamón, caña de lomo y queso (200 g)",en:"Ham, loin & cheese (200 g)",it:"Prosciutto, lombo e formaggio (200 g)",fr:"Jambon, longe et fromage (200 g)"}},
-  {n:"Patatas salsa brava", p:"8 / 12 €", d:{es:"Patatas fritas con dos salsas picantes",en:"Fried potatoes, two spicy sauces",it:"Patate fritte, due salse piccanti",fr:"Pommes de terre, deux sauces épicées"}},
-  {n:"Patatas con crema de cabrales", p:"9 / 13 €", d:{es:"Con salsa de queso azul",en:"With blue cheese sauce",it:"Con salsa al formaggio blu",fr:"Sauce au fromage bleu"}},
-  {n:"Patatas tres salsas", p:"13 €", d:{es:"Bravas, cabrales y alioli",en:"Brava, cabrales & aioli",it:"Brava, cabrales e aioli",fr:"Brava, cabrales et aïoli"}},
-  {n:"Ensaladilla de pulpo", p:"8 / 12 €", d:{es:"Al pimentón de la Vera",en:"Octopus salad, La Vera paprika",it:"Insalata di polpo, paprika della Vera",fr:"Salade de poulpe, paprika de la Vera"}},
-  {n:"Pastel de cabracho", p:"9 €", d:{es:"",en:"Scorpionfish pâté",it:"Pâté di scorfano",fr:"Pâté de rascasse"}},
-  {n:"Queso puro de oveja Collada DOP", p:"9 / 14 €", d:{es:"Con gelatina de vino de Cangas",en:"Sheep cheese with Cangas wine jelly",it:"Pecorino con gelatina di vino di Cangas",fr:"Brebis, gelée de vin de Cangas"},dop:true},
-  {n:"Queso de Cabrales DOP", p:"9 / 15 €", d:{es:"Con dulce de manzana ecológico",en:"With organic apple jelly",it:"Con confettura di mela bio",fr:"Confiture de pomme bio"},dop:true},
-  {n:"Queso Gamoneu DOP", p:"9 / 16 €", d:{es:"",en:"Gamoneu DOP cheese",it:"Formaggio Gamoneu DOP",fr:"Fromage Gamoneu AOP"},dop:true},
-  {n:"Queso de cabra curado a la plancha", p:"9 €", d:{es:"Con mermelada de arándanos",en:"Grilled goat cheese, cranberry jam",it:"Caprino grigliato, marmellata di mirtilli",fr:"Chèvre grillé, confiture de myrtilles"}},
-  {n:"Chorizos asturianos a la sidra", p:"9 / 13 €", d:{es:"",en:"Asturian chorizo in cider",it:"Chorizo asturiano al sidro",fr:"Chorizo asturien au cidre"}},
-  {n:"Buñuelos de chorizo a la sidra", p:"8 / 14 €", d:{es:"",en:"Chorizo fritters in cider",it:"Frittelle di chorizo al sidro",fr:"Beignets de chorizo au cidre"}},
-  {n:"Chorizo criollo con chimichurri", p:"8 €", d:{es:"",en:"Creole sausage, chimichurri",it:"Salsiccia creola, chimichurri",fr:"Saucisse créole, chimichurri"}},
-  {n:"Tosta de anchoa del Cantábrico", p:"3,20 €", d:{es:"Unidad",en:"Cantabrian anchovy toast (each)",it:"Toast di acciuga del Cantabrico",fr:"Toast d'anchois de Cantabrie"}},
-  {n:"Mejillones salsa diávola", p:"8 / 14 €", d:{es:"",en:"Mussels, diavola sauce",it:"Cozze alla diavola",fr:"Moules sauce diavola"}},
-  {n:"Mejillones salsa cabrales", p:"8 / 14 €", d:{es:"",en:"Mussels, cabrales sauce",it:"Cozze al cabrales",fr:"Moules sauce cabrales"}},
-  {n:"Pulpo a la brasa", p:"23 €", d:{es:"Con salsa sanabresa",en:"Grilled octopus, sanabresa sauce",it:"Polpo alla brace, salsa sanabresa",fr:"Poulpe grillé, sauce sanabresa"}},
-  {n:"Croquetas de pixín con langostinos", p:"9 / 14 €", d:{es:"Rape y langostinos",en:"Monkfish & prawn croquettes",it:"Crocchette di rana pescatrice e gamberi",fr:"Croquettes de lotte et gambas"}},
-  {n:"Croquetas de cecina", p:"9 / 14 €", d:{es:"",en:"Cured beef croquettes",it:"Crocchette di cecina",fr:"Croquettes de cecina"}},
-  {n:"Croquetas de queso cabrales", p:"9 / 14 €", d:{es:"",en:"Cabrales cheese croquettes",it:"Crocchette al cabrales",fr:"Croquettes au cabrales"}},
-  {n:"Croquetas de carabineros", p:"10 / 15 €", d:{es:"",en:"Scarlet prawn croquettes",it:"Crocchette di gambero rosso",fr:"Croquettes de carabineros"}},
-  {n:"Croquetas variadas", p:"16 €", d:{es:"",en:"Assorted croquettes",it:"Crocchette miste",fr:"Croquettes variées"}},
-  {n:"Gambón a la gabardina", p:"9 / 16 €", d:{es:"",en:"Battered king prawns",it:"Gamberoni in pastella",fr:"Gambas en beignet"}},
-  {n:"Lagrimitas de presa ibérica", p:"9 / 15 €", d:{es:"Con alioli rojo",en:"Iberian pork bites, red aioli",it:"Bocconcini di presa iberica, aioli rosso",fr:"Émincé de porc ibérique, aïoli rouge"}},
-  {n:"Pimientos de Padrón", p:"10 €", d:{es:"",en:"Padrón peppers",it:"Peperoni di Padrón",fr:"Piments de Padrón"}},
-  {n:"Pan y picos", p:"1,20 €", d:{es:"",en:"Bread & breadsticks",it:"Pane e grissini",fr:"Pain et gressins"}}
- ]},
- mariscos:{ items:[
-  {n:"Ostras", p:"4,50 €", d:{es:"Unidad",en:"Oysters (each)",it:"Ostriche (cad.)",fr:"Huîtres (pièce)"}},
-  {n:"Mejillones al natural", p:"8 / 12 €", d:{es:"",en:"Mussels au naturel",it:"Cozze al naturale",fr:"Moules nature"}},
-  {n:"Zamburiñas a la plancha", p:"15 €", d:{es:"",en:"Grilled queen scallops",it:"Canestrelli alla piastra",fr:"Pétoncles grillés"}},
-  {n:"Gambón a la plancha", p:"18 €", d:{es:"",en:"Grilled king prawns",it:"Gamberoni alla piastra",fr:"Gambas grillées"}},
-  {n:"Según temporada", p:"S/M", d:{es:"Consulta el marisco del día",en:"Ask for today's seafood",it:"Chiedi il pescato del giorno",fr:"Demandez l'arrivage du jour"}}
- ]},
- huerta:{ items:[
-  {n:"Ensalada mixta", p:"15 €", d:{es:"",en:"Mixed salad",it:"Insalata mista",fr:"Salade mixte"}},
-  {n:"Ensalada gascona", p:"15 €", d:{es:"Hojas, cabrales, manzana y nueces",en:"Leaves, cabrales, apple & walnuts",it:"Insalata, cabrales, mela e noci",fr:"Salade, cabrales, pomme et noix"}},
-  {n:"Ensalada de cogollos", p:"16 €", d:{es:"Con bonito y anchoas",en:"Lettuce hearts, tuna & anchovies",it:"Lattughini, tonno e acciughe",fr:"Cœurs de laitue, thon et anchois"}},
-  {n:"Tomate natural con bonito", p:"15 €", d:{es:"Bonito del Cantábrico",en:"Tomato & Cantabrian tuna",it:"Pomodoro e tonno del Cantabrico",fr:"Tomate et thon de Cantabrie"}},
-  {n:"Parrillada de verduras frescas", p:"18 €", d:{es:"",en:"Grilled fresh vegetables",it:"Verdure fresche grigliate",fr:"Légumes frais grillés"}},
-  {n:"Flores de alcachofas confitadas", p:"12 €", d:{es:"A la marinera",en:"Confit artichokes, marinara",it:"Carciofi confit alla marinara",fr:"Artichauts confits à la marinière"}}
- ]},
- tablas:{ items:[
-  {n:"Tabla de quesos asturianos", p:"19 €", d:{es:"Cabrales, Gamoneu, Afuega'l Pitu, oveja Collada, 3 leches y vaca a la sidra",en:"Cabrales, Gamoneu, Afuega'l Pitu, sheep, 3-milk & cider cow cheese",it:"Selezione di formaggi asturiani",fr:"Sélection de fromages asturiens"}},
-  {n:"Tabla de embutidos asturianos", p:"19 €", d:{es:"Cecina, salchichón con castaña, longaniza y chosco de Tineo",en:"Cured beef, chestnut salami, longaniza & chosco de Tineo",it:"Salumi asturiani misti",fr:"Charcuterie asturienne"}},
-  {n:"Tabla de quesos y embutidos", p:"35 €", d:{es:"Opción sin gluten",en:"Cheese & charcuterie · gluten-free option",it:"Formaggi e salumi · senza glutine",fr:"Fromages et charcuterie · sans gluten"}}
- ]},
- arroces:{ note:{es:"Mínimo 2 personas · precio por persona",en:"Min. 2 people · price per person",it:"Min. 2 persone · prezzo a persona",fr:"Min. 2 personnes · prix par personne"}, items:[
-  {n:"Arroz marinero", p:"18 €", d:{es:"",en:"Seafood rice",it:"Riso ai frutti di mare",fr:"Riz aux fruits de mer"}},
-  {n:"Arroz de la huerta", p:"16 €", d:{es:"",en:"Vegetable rice",it:"Riso alle verdure",fr:"Riz aux légumes"}},
-  {n:"Arroz mar y montaña", p:"18 €", d:{es:"",en:"Surf & turf rice",it:"Riso mare e monti",fr:"Riz terre et mer"}},
-  {n:"Arroz gascona", p:"17 €", d:{es:"Ternera, costillas, chorizo criollo y chistorra",en:"Veal, ribs, creole sausage & chistorra",it:"Vitello, costine e salsicce",fr:"Veau, côtes et saucisses"}},
-  {n:"Paella mixta", p:"16 €", d:{es:"",en:"Mixed paella",it:"Paella mista",fr:"Paella mixte"}},
-  {n:"Paella de marisco", p:"18 €", d:{es:"",en:"Seafood paella",it:"Paella ai frutti di mare",fr:"Paella aux fruits de mer"}}
- ]},
- cuchara:{ items:[
-  {n:"Fabada asturiana", p:"5,80 / 16 / 30 / 58 €", d:{es:"Tapa · ración · 2 pers. · 4 pers.",en:"Asturian bean stew · tapa/portion/2/4",it:"Fabada asturiana · tapa/porz./2/4",fr:"Fabada asturienne · tapa/portion/2/4"}}
- ]},
- sartenes:{ items:[
-  {n:"Pulpo a la gallega", p:"23 €", d:{es:"",en:"Galician-style octopus",it:"Polpo alla galiziana",fr:"Poulpe à la galicienne"}},
-  {n:"Sartén de bacalao con gulas y gambas", p:"18 €", d:{es:"",en:"Cod, elvers & prawns skillet",it:"Padella di baccalà, gulas e gamberi",fr:"Poêlée de morue, civelles et gambas"}},
-  {n:"Sartén de setas al ajillo", p:"16 €", d:{es:"Con jamón y gambas",en:"Garlic mushrooms, ham & prawns",it:"Funghi all'aglio, prosciutto e gamberi",fr:"Champignons à l'ail, jambon et gambas"}},
-  {n:"Huevos rotos con txistorra", p:"15 €", d:{es:"Con patatas y txistorra de Navarra",en:"Broken eggs, potatoes & chistorra",it:"Uova rotte, patate e chistorra",fr:"Œufs cassés, pommes de terre et chistorra"}},
-  {n:"Huevos rotos con gulas y langostinos", p:"16 €", d:{es:"",en:"Broken eggs, elvers & prawns",it:"Uova rotte, gulas e gamberoni",fr:"Œufs cassés, civelles et gambas"}},
-  {n:"Huevos rotos con trufa", p:"18 €", d:{es:"Con patatas y trufa",en:"Broken eggs, potatoes & truffle",it:"Uova rotte, patate e tartufo",fr:"Œufs cassés, pommes de terre et truffe"}},
-  {n:"Revuelto de bacalao", p:"16 €", d:{es:"",en:"Cod scrambled eggs",it:"Uova strapazzate al baccalà",fr:"Œufs brouillés à la morue"}},
-  {n:"Revuelto de setas con jamón", p:"16 €", d:{es:"",en:"Mushroom & ham scrambled eggs",it:"Uova strapazzate funghi e prosciutto",fr:"Œufs brouillés champignons et jambon"}},
-  {n:"Revuelto aragonés", p:"15 €", d:{es:"De verduras",en:"Vegetable scrambled eggs",it:"Uova strapazzate alle verdure",fr:"Œufs brouillés aux légumes"}}
- ]},
- mar:{ items:[
-  {n:"Tataki de atún", p:"9 / 16 €", d:{es:"Opción sin lactosa",en:"Tuna tataki · lactose-free option",it:"Tataki di tonno · senza lattosio",fr:"Tataki de thon · sans lactose"}},
-  {n:"Lomo de bacalao gratinado", p:"19 €", d:{es:"",en:"Gratinated cod loin",it:"Filetto di baccalà gratinato",fr:"Dos de morue gratiné"}},
-  {n:"Lomo de bacalao con gulas y langostinos", p:"20 €", d:{es:"",en:"Cod loin, elvers & prawns",it:"Baccalà con gulas e gamberoni",fr:"Morue, civelles et gambas"}},
-  {n:"Calamares fritos", p:"9 / 16 €", d:{es:"",en:"Fried squid",it:"Calamari fritti",fr:"Calamars frits"}},
-  {n:"Chipirones fritos", p:"9 / 16 €", d:{es:"",en:"Fried baby squid",it:"Calamaretti fritti",fr:"Petits calamars frits"}},
-  {n:"Pavías de dorada", p:"10 / 16 €", d:{es:"Con mahonesa de curry",en:"Battered sea bream, curry mayo",it:"Orata in pastella, maionese al curry",fr:"Dorade en beignet, mayo curry"}},
-  {n:"Fritos de bacalao", p:"11 / 19 €", d:{es:"",en:"Fried cod",it:"Baccalà fritto",fr:"Morue frite"}},
-  {n:"Lubina a la espalda", p:"24 €", d:{es:"Con guarnición de verduras",en:"Grilled sea bass with vegetables",it:"Branzino con verdure",fr:"Bar grillé, garniture de légumes"}}
- ]},
- carnes:{ items:[
-  {n:"Cachopo tradicional", p:"25 €", d:{es:"Ternera asturiana IGP, jamón ibérico y queso de Oscos",en:"Asturian beef, Iberian ham & Oscos cheese",it:"Cachopo: manzo asturiano, prosciutto e formaggio",fr:"Cachopo : bœuf asturien, jambon et fromage"}},
-  {n:"Cachopo gascona", p:"26 €", d:{es:"Con setas, gambas y alioli",en:"With mushrooms, prawns & aioli",it:"Con funghi, gamberi e aioli",fr:"Champignons, gambas et aïoli"}},
-  {n:"Cachopo cabrales", p:"26 €", d:{es:"Con cecina y queso de cabrales",en:"With cured beef & cabrales cheese",it:"Con cecina e cabrales",fr:"Cecina et cabrales"}},
-  {n:"Cachopo sin gluten / sin lactosa", p:"26 €", d:{es:"",en:"Gluten-free / lactose-free cachopo",it:"Cachopo senza glutine/lattosio",fr:"Cachopo sans gluten/lactose"}},
-  {n:"Solomillo de cerdo con cabrales", p:"16 €", d:{es:"Salsa de cabrales",en:"Pork fillet, cabrales sauce",it:"Filetto di maiale al cabrales",fr:"Filet de porc, sauce cabrales"}},
-  {n:"Solomillo de cerdo con setas", p:"16 €", d:{es:"Y crujientes de jamón",en:"Pork fillet, mushrooms & crispy ham",it:"Filetto di maiale, funghi e prosciutto croccante",fr:"Filet de porc, champignons et jambon croustillant"}},
-  {n:"Pierna de cordero Xaldo al horno", p:"27 €", d:{es:"Lechal asturiano",en:"Roast Asturian milk-fed lamb",it:"Agnello asturiano al forno",fr:"Agneau de lait asturien rôti"}},
-  {n:"Presa ibérica", p:"20 €", d:{es:"Con mojo picón y crujientes de jamón",en:"Iberian pork, mojo picón & crispy ham",it:"Presa iberica, mojo picón e prosciutto",fr:"Presa ibérique, mojo picón et jambon"}},
-  {n:"Cochinillo asado", p:"27 €", d:{es:"Ración",en:"Roast suckling pig (portion)",it:"Maialino arrosto (porzione)",fr:"Cochon de lait rôti (portion)"}},
-  {n:"Parrillada de carnes", p:"39 €", d:{es:"2 personas",en:"Mixed grill (2 people)",it:"Grigliata di carne (2 pers.)",fr:"Grillade de viandes (2 pers.)"}},
-  {n:"Solomillo de ternera asturiana IGP", p:"29 €", d:{es:"A la parrilla",en:"Grilled Asturian beef sirloin",it:"Filetto di manzo asturiano",fr:"Filet de bœuf asturien"}},
-  {n:"Entrecot de ternera asturiana IGP", p:"28 €", d:{es:"400 g, menos de 12 meses",en:"Asturian veal entrecôte, 400 g",it:"Entrecôte di vitello asturiano, 400 g",fr:"Entrecôte de veau asturien, 400 g"}},
-  {n:"Chuletón de vacuno asturiano IGP", p:"55 €", d:{es:"A la parrilla",en:"Asturian T-bone steak",it:"Bistecca asturiana",fr:"Côte de bœuf asturienne"}},
-  {n:"Hamburguesa de ternera asturiana", p:"15 €", d:{es:"Con beicon, huevo y queso",en:"Asturian beef burger, bacon, egg & cheese",it:"Hamburger asturiano, bacon, uovo e formaggio",fr:"Burger asturien, bacon, œuf et fromage"}},
-  {n:"Picaña de ternera asturiana", p:"24 €", d:{es:"A la parrilla",en:"Grilled Asturian picanha",it:"Picanha asturiana",fr:"Picanha asturienne"}}
- ]},
- postres:{ items:[
-  {n:"Frixuelo relleno de arroz con leche", p:"6,50 €", d:{es:"",en:"Crêpe filled with rice pudding",it:"Crêpe con riso al latte",fr:"Crêpe au riz au lait"}},
-  {n:"Frixuelo con chocolate y nata", p:"5,50 €", d:{es:"",en:"Crêpe with chocolate & cream",it:"Crêpe con cioccolato e panna",fr:"Crêpe chocolat et crème"}},
-  {n:"Frixuelo con helado", p:"6,50 €", d:{es:"",en:"Crêpe with ice cream",it:"Crêpe con gelato",fr:"Crêpe avec glace"}},
-  {n:"Tarta de queso al horno", p:"5,50 €", d:{es:"",en:"Baked cheesecake",it:"Cheesecake al forno",fr:"Cheesecake au four"}},
-  {n:"Tarta de la abuela", p:"5,50 €", d:{es:"Chocolate, natillas y galleta",en:"Chocolate, custard & biscuit cake",it:"Torta cioccolato, crema e biscotto",fr:"Gâteau chocolat, crème et biscuit"}},
-  {n:"Arroz con leche", p:"5 €", d:{es:"Con canela o azúcar quemada",en:"Rice pudding, cinnamon or burnt sugar",it:"Riso al latte, cannella o caramello",fr:"Riz au lait, cannelle ou sucre brûlé"}},
-  {n:"Coulant de chocolate", p:"5,50 €", d:{es:"Opción sin gluten",en:"Chocolate coulant · gluten-free option",it:"Coulant al cioccolato · senza glutine",fr:"Coulant au chocolat · sans gluten"}},
-  {n:"Coulant de chocolate blanco", p:"5,50 €", d:{es:"",en:"White chocolate coulant",it:"Coulant cioccolato bianco",fr:"Coulant chocolat blanc"}},
-  {n:"Torrija de pan brioche con helado", p:"7,50 €", d:{es:"",en:"Brioche torrija with ice cream",it:"Torrija di brioche con gelato",fr:"Pain perdu brioché avec glace"}},
-  {n:"Coulant de chocolate con helado", p:"6,50 €", d:{es:"",en:"Chocolate coulant with ice cream",it:"Coulant al cioccolato con gelato",fr:"Coulant au chocolat avec glace"}},
-  {n:"Copa de helado", p:"5,50 €", d:{es:"",en:"Cup of ice cream",it:"Coppa di gelato",fr:"Coupe de glace"}}
- ]}
-};
-
-/* ====== VINOS Y BEBIDAS (nombre + precio copa/botella) ====== */
-const VINOS = [
- {h:{es:"Vinos asturianos",en:"Asturian wines",it:"Vini asturiani",fr:"Vins asturiens"}, l:[
-   ["Monasterio de Corias · Tinto Crianza","3,80 / 24 €"],
-   ["Monasterio de Corias · Blanco","3,80 / 24 €"]]},
- {h:{es:"Ribera del Duero",en:"Ribera del Duero",it:"Ribera del Duero",fr:"Ribera del Duero"}, l:[
-   ["Protos","3,20 / 18 €"],["Caballero Mendoza","3,50 / 20 €"],["Finca Resalso (Emilio Moro)","3,50 / 20 €"],
-   ["Concejo (Cigales)","25 €"],["Antídoto","29 €"],["Emilio Moro","34 €"],["Malleolus","52 €"],["PSI · Dominio de Pingus","59 €"],["Alión (Vega Sicilia)","98 €"]]},
- {h:{es:"Rioja",en:"Rioja",it:"Rioja",fr:"Rioja"}, l:[
-   ["Montecillo Crianza","3 / 17 €"],["La Poda Garnacha","3,20 / 19 €"],["Montecillo Reserva","3,80 / 23 €"],["Márquez y Bengoa Reserva","3,80 / 23 €"],["Ladrón de Guevara","3,80 / 24 €"],["Andén de la Estación (Muga)","3,80 / 24 €"],["Montecillo Edición Limitada","25 €"],["Predicador","44 €"],["Macán Clásico","59 €"],["Macán 2018","96 €"]]},
- {h:{es:"Albariño · Rías Baixas",en:"Albariño",it:"Albariño",fr:"Albariño"}, l:[
-   ["Abadía de San Campio","3,80 / 22 €"],["A Capitana","3,50 / 20 €"],["Terras Gauda","28 €"]]},
- {h:{es:"Rueda · Verdejo",en:"Rueda · Verdejo",it:"Rueda · Verdejo",fr:"Rueda · Verdejo"}, l:[
-   ["Nirio Verdejo","3 / 18 €"],["El Perro Verde","24 €"],["Javier Sanz Verdejo","3,50 / 20 €"],["La Poda Sauvignon Blanc","3,20 / 19 €"]]},
- {h:{es:"Vinos andaluces y generosos",en:"Andalusian & fortified",it:"Vini andalusi",fr:"Vins andalous"}, l:[
-   ["Vallehondo","3,20 / 19 €"],["Barredero","2,80 / 17 €"],["Manzanilla Solear","3 / 15 €"],["Fino Tío Pepe","3 / 15 €"],["Pedro Ximénez","3 / 15 €"],["Canasta","3 / 16 €"],["Alfonso Oloroso","3,20 / 19 €"]]},
- {h:{es:"Otras denominaciones",en:"Other appellations",it:"Altre denominazioni",fr:"Autres appellations"}, l:[
-   ["La Poda · Toro","3,20 / 19 €"],["La Poda · Mencía Valdeorras","3,20 / 19 €"],["La Poda · Godello","3,20 / 19 €"],["Pittacum · Mencía Bierzo","3,50 / 20 €"],["Gotas de Habla · Extremadura","3 / 18 €"]]},
- {h:{es:"Semidulces y rosados",en:"Semi-sweet & rosé",it:"Amabili e rosati",fr:"Demi-doux et rosés"}, l:[
-   ["Novio Perfecto","2,80 / 16 €"],["Flor de Édalo","2,80 / 16 €"],["Hashtag","2,80 / 16 €"],["Murviedro Rosado","2,80 / 14 €"],["Fontana di Fiori Rosado","2,80 / 14 €"],["Inurrieta","3 / 16 €"]]},
- {h:{es:"Sidras y espumosos",en:"Cider & sparkling",it:"Sidro e spumanti",fr:"Cidre et mousseux"}, l:[
-   ["Sidra Trabanco","5,50 €"],["Lagar de Camín (achampanada)","1,50 / 7 €"],["Bocchoris","20 €"],["La Vie en Rose","24 €"],["Moët & Chandon Ice Imperial","120 €"]]},
- {h:{es:"Sangrías",en:"Sangria",it:"Sangria",fr:"Sangria"}, l:[
-   ["Sangría","4,90 / 16 €"],["Sangría de sidra","16 €"]]}
-];
-const BEBIDAS = [
- {h:{es:"Cervezas",en:"Beers",it:"Birre",fr:"Bières"}, l:[
-   ["Caña / media maceta","2 €"],["Cerveza entera","3,60 €"],["Cerveza copa","3,20 €"],["Sin gluten","2,90 €"],["Estrella Galicia Tercio","2,80 €"],["1906 Tercio","3 €"],["Estrella 0,0","2,80 €"],["Radler","2,40 €"]]},
- {h:{es:"Vermut y aperitivos",en:"Vermouth & aperitifs",it:"Vermut e aperitivi",fr:"Vermouth et apéritifs"}, l:[
-   ["Vermut asturiano ALMA","3,50 €"],["Martini Rosso","4,50 €"],["Tinto de verano","2,50 €"]]},
- {h:{es:"Refrescos",en:"Soft drinks",it:"Bibite",fr:"Sodas"}, l:[
-   ["Coca-Cola / Zero / Zero Zero","2,50 €"],["Fanta naranja / limón","1,90 €"],["Sprite","1,90 €"],["Nestea","2,40 €"],["Aquarius","2,40 €"],["Tónica","2 €"],["Zumos","2,50 €"]]},
- {h:{es:"Aguas",en:"Water",it:"Acque",fr:"Eaux"}, l:[
-   ["Agua premium (pequeña)","2,20 €"],["Agua premium (grande)","3,50 €"],["Agua con gas","2,50 €"]]},
- {h:{es:"Cafés e infusiones",en:"Coffee & tea",it:"Caffè e tisane",fr:"Cafés et infusions"}, l:[
-   ["Café solo","1,60 €"],["Cortado","1,70 €"],["Manchado","1,80 €"],["Con leche","1,80 €"],["Doble","2,50 €"],["Bombón","2,50 €"],["Carajillo","3 €"],["Capuchino","3 €"],["Té / infusiones","1,50 €"]]}
-];
+/* ====== CARGA DE DATOS (menu.json) ====== */
+let DATA = null, LANG = 'es';
+const dataReady = fetch('menu.json', {cache:'no-cache'})
+  .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+  .then(j => { DATA = j; })
+  .catch(err => { console.error('No se pudo cargar menu.json:', err); });
 
 /* ====== RENDER ====== */
-let LANG = 'es';
-function esc(s){return s;}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
 function renderFood(key){
-  const sec = MENU[key];
+  const sec = DATA.menu[key];
   let h = `<section id="${key}">`;
-  h += `<div class="cat"><h2>${SECT[key][LANG]}</h2><div class="orna">✦ ✦ ✦</div>`;
+  h += `<div class="cat"><h2>${DATA.sections[key][LANG]}</h2><div class="orna">✦ ✦ ✦</div>`;
   if(sec.note) h += `<div class="note">${sec.note[LANG]}</div>`;
   h += `</div>`;
-  if(sec.img) h += `<img class="hero-img" src="${sec.img}" alt="${SECT[key][LANG]}" loading="lazy" onerror="this.remove()">`;
-  if(sec.cols) h += `<div class="colhdr"><span>${COL[LANG][0]}</span><span>${COL[LANG][1]}</span></div>`;
+  if(sec.img) h += `<img class="hero-img" src="${sec.img}" alt="${DATA.sections[key][LANG]}" loading="lazy" onerror="this.remove()">`;
+  if(sec.cols) h += `<div class="colhdr"><span>${DATA.columns[LANG][0]}</span><span>${DATA.columns[LANG][1]}</span></div>`;
   for(const it of sec.items){
-    const desc = it.d[LANG];
+    const name = (it.n && (it.n[LANG] || it.n.es)) || '';
+    const desc = it.d ? (it.d[LANG] || '') : '';
     const badge = it.dop? `<span class="badge dop">DOP</span>`:``;
-    h += `<div class="plato"><div><span class="n">${it.n}${badge}</span>`+
+    const cls = it.img ? 'plato has-foto' : 'plato';
+    const attrs = it.img
+      ? ` data-img="images/${it.img}" data-n="${esc(name)}" data-d="${esc(desc)}" data-p="${esc(it.p)}"`
+      : ``;
+    const cam = it.img
+      ? `<span class="cam" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 8.5A1.5 1.5 0 0 1 5.5 7h1.7l1-1.5a1 1 0 0 1 .83-.45h4.94a1 1 0 0 1 .83.45l1 1.5h1.7A1.5 1.5 0 0 1 20 8.5v9A1.5 1.5 0 0 1 18.5 19h-13A1.5 1.5 0 0 1 4 17.5Z"/><circle cx="12" cy="12.6" r="3"/></svg></span>`
+      : ``;
+    h += `<div class="${cls}"${attrs}><div><span class="n">${name}${badge}${cam}</span>`+
          (desc? `<span class="d">${desc}</span>`:``)+
          `</div><span class="precio">${it.p}</span></div>`;
   }
@@ -402,7 +274,7 @@ function renderFood(key){
   return h;
 }
 function renderWines(key, data){
-  let h = `<section id="${key}"><div class="cat"><h2>${SECT[key][LANG]}</h2><div class="orna">✦ ✦ ✦</div></div><div class="vinos">`;
+  let h = `<section id="${key}"><div class="cat"><h2>${DATA.sections[key][LANG]}</h2><div class="orna">✦ ✦ ✦</div></div><div class="vinos">`;
   for(const grp of data){
     h += `<h3>${grp.h[LANG]}</h3>`;
     for(const row of grp.l){
@@ -412,24 +284,113 @@ function renderWines(key, data){
   h += `</div></section>`;
   return h;
 }
-const ORDER = ['compartir','mariscos','huerta','tablas','arroces','cuchara','sartenes','mar','carnes','postres'];
 function build(){
   document.documentElement.lang = LANG;
-  document.getElementById('aler').textContent = UI[LANG].aler;
+  document.getElementById('aler').textContent = DATA.ui[LANG].aler;
   // nav
   let nav = '';
-  ORDER.forEach(k=> nav += `<a href="#${k}">${SECT[k][LANG]}</a>`);
-  nav += `<a href="#vinos">${SECT.vinos[LANG]}</a><a href="#bebidas">${SECT.bebidas[LANG]}</a>`;
+  DATA.order.forEach(k=> nav += `<a href="#${k}">${DATA.sections[k][LANG]}</a>`);
+  nav += `<a href="#vinos">${DATA.sections.vinos[LANG]}</a><a href="#bebidas">${DATA.sections.bebidas[LANG]}</a>`;
   document.getElementById('nav').innerHTML = nav;
   // menu
   let m = '';
-  ORDER.forEach(k=> m += renderFood(k));
-  m += renderWines('vinos', VINOS);
-  m += renderWines('bebidas', BEBIDAS);
+  DATA.order.forEach(k=> m += renderFood(k));
+  m += renderWines('vinos', DATA.wines);
+  m += renderWines('bebidas', DATA.drinks);
   m += `<div class="iva">★ IVA incluido ★</div>`;
   document.getElementById('menu').innerHTML = m;
+  spyActiveId = null;
+  updateActiveSection();
 }
-function setLang(l){
+
+/* ====== Marcado de la sección activa al hacer scroll ====== */
+let spyTicking = false, spyActiveId = null;
+function updateActiveSection(){
+  spyTicking = false;
+  const nav = document.getElementById('nav');
+  const sections = [...document.querySelectorAll('#menu section')];
+  if(!nav || !sections.length) return;
+  const line = nav.offsetHeight + 16;
+  let current = sections[0].id;
+  for(const s of sections){
+    if(s.getBoundingClientRect().top - line <= 0) current = s.id;
+    else break;
+  }
+  if(window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2)
+    current = sections[sections.length - 1].id;
+  if(current === spyActiveId) return;
+  spyActiveId = current;
+  let activeLink = null;
+  nav.querySelectorAll('a').forEach(a=>{
+    const on = a.getAttribute('href') === '#' + current;
+    a.classList.toggle('active', on);
+    if(on) activeLink = a;
+  });
+  if(activeLink) activeLink.scrollIntoView({inline:'center', block:'nearest', behavior:'smooth'});
+}
+window.addEventListener('scroll', ()=>{
+  if(!spyTicking){ spyTicking = true; requestAnimationFrame(updateActiveSection); }
+}, {passive:true});
+window.addEventListener('resize', updateActiveSection, {passive:true});
+
+/* ====== Modal de plato con foto (imagen 1:1) ====== */
+const modal = document.getElementById('modal');
+function openDish(el){
+  const img = document.getElementById('mImg');
+  img.src = el.dataset.img; img.alt = el.dataset.n || '';
+  document.getElementById('mName').textContent = el.dataset.n || '';
+  const d = document.getElementById('mDesc');
+  d.textContent = el.dataset.d || ''; d.style.display = el.dataset.d ? 'block' : 'none';
+  document.getElementById('mPrice').textContent = el.dataset.p || '';
+  modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow = 'hidden';
+}
+function closeDish(){
+  modal.classList.remove('open'); modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow = '';
+}
+document.getElementById('menu').addEventListener('click', e=>{
+  const p = e.target.closest('.plato.has-foto'); if(p) openDish(p);
+});
+document.getElementById('modalX').addEventListener('click', closeDish);
+modal.addEventListener('click', e=>{ if(e.target===modal) closeDish(); });
+document.addEventListener('keydown', e=>{ if(e.key==='Escape' && modal.classList.contains('open')) closeDish(); });
+
+/* Deslizar hacia abajo para cerrar el modal */
+const mCard = modal.querySelector('.modal-card');
+let dSy = 0, dDrag = false, dDy = 0, dSt = 0;
+mCard.addEventListener('touchstart', e=>{
+  if(e.touches.length!==1) return;
+  dSy = e.touches[0].clientY; dSt = e.timeStamp; dDrag = false; dDy = 0;
+}, {passive:true});
+mCard.addEventListener('touchmove', e=>{
+  if(e.touches.length!==1) return;
+  const delta = e.touches[0].clientY - dSy;
+  if(!dDrag){ if(delta>5){ dDrag = true; mCard.style.transition='none'; } else return; }
+  dDy = Math.max(0, delta);
+  e.preventDefault();
+  mCard.style.transform = 'translateY('+dDy+'px)';
+  modal.style.opacity = Math.max(0.25, 1 - dDy/(mCard.offsetHeight*0.9));
+}, {passive:false});
+function endDragDish(){
+  if(!dDrag) return; dDrag = false;
+  const vel = dDy / Math.max(1, (performance.now()-dSt));
+  const threshold = Math.min(130, mCard.offsetHeight*0.28);
+  mCard.style.transition = 'transform .22s ease';
+  if(dDy>threshold || vel>0.5){
+    mCard.style.transform = 'translateY(100%)'; modal.style.opacity = '0';
+    setTimeout(()=>{ closeDish(); mCard.style.transition=''; mCard.style.transform=''; modal.style.opacity=''; }, 200);
+  } else {
+    mCard.style.transform = 'translateY(0)'; modal.style.opacity = '';
+    setTimeout(()=>{ mCard.style.transition=''; mCard.style.transform=''; }, 230);
+  }
+  dDy = 0;
+}
+mCard.addEventListener('touchend', endDragDish);
+mCard.addEventListener('touchcancel', endDragDish);
+async function setLang(l){
+  if(!DATA){ await dataReady; }
+  if(!DATA){ alert('No se pudo cargar la carta. Comprueba tu conexión y recarga.'); return; }
   LANG = l;
   build();
   document.getElementById('splash').classList.add('hide');
